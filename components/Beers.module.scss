@@ -1,0 +1,26 @@
+@import '/styles/variables';
+
+.container {
+    padding: 32px;
+    background-color: $yellow;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    // max-width: 768px;
+
+    h2 {
+        margin-top: 0px;
+        font-size: 64px;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        font-weight: 900;
+        text-align: center;
+    }
+}
+
+.beersWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

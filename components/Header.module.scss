@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    padding: 16px;
+    background-color: #8EAC91;
+    // border-bottom: 3px solid #000000;
+}
+
+.nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+
+    a {
+        color: #ffffff;
+        // text-transform: uppercase;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+
+        &:hover {
+
+        color: #FBDE80;
+        }
+    }
+}

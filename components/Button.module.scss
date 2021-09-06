@@ -1,0 +1,31 @@
+@import '/styles/variables';
+
+.button {
+
+    background-color: #000000; 
+    border: none;
+    padding: 8px 16px;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+
+    cursor: pointer;
+
+    &[color="green"] {
+        background-color: $green;
+    }
+    &[color="yellow"] {
+        background-color: $yellow;
+        color: #000000;
+    }
+    &[color="white"] {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    &:hover {
+        opacity: .65;
+    }
+}

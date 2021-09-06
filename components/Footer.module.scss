@@ -1,0 +1,25 @@
+@import '/styles/variables';
+.container {
+    display: flex;
+    padding: 32px;
+    background-color: $green;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    address {
+        font-style: normal;
+        line-height: 1.6em;
+        margin-bottom: 32px;
+    }
+
+    iframe {
+        max-width: 100%;
+        flex: 1;
+        margin-bottom: 32px;
+    }
+
+    th {
+        text-align: left;
+        padding-right: 16px;
+    }
+}
