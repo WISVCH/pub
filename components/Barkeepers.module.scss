@@ -1,0 +1,53 @@
+@import '/styles/variables';
+
+.container {
+    padding: 64px 32px;
+    background-color: $green;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    h2 {
+        font-size: 48px;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+    }
+
+    & > div {
+        flex: 1;
+        flex-basis: 400px;
+    }
+    img, iframe {
+        max-width: 100%;
+    }
+
+    // flex-direction: column;
+
+    // h2 {
+    //     margin-top: 0px;
+    //     font-size: 64px;
+    //     text-transform: uppercase;
+    //     letter-spacing: 6px;
+    //     font-weight: 900;
+    //     text-align: center;
+    // }
+
+    // section {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //     max-width: 768px;
+
+    //     img {
+    //         max-width: 100%;
+    //     }
+    // }
+}
+
+.buttonWrapper {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}

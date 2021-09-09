@@ -1,6 +1,6 @@
 import styles from './Button.module.scss'
 
-export const Button = ({ text, color = 'black', onClick=null, href = null, target = "_blank" }) => {
+export const Button = ({ children, color = 'black', onClick=null, href = null, target = "_blank" }) => {
     if(href) {
         return (
             <a
@@ -11,7 +11,7 @@ export const Button = ({ text, color = 'black', onClick=null, href = null, targe
                 className={styles.button}
                 target={target}
                 >
-                { text }
+                { children }
             </a>
         )
     }
@@ -24,7 +24,7 @@ export const Button = ({ text, color = 'black', onClick=null, href = null, targe
             className={styles.button}
             onClick={onClick}
             >
-            { text }
+            { children }
         </button>
     )
 }
