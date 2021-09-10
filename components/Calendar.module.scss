@@ -1,0 +1,36 @@
+.event {
+    padding: 4px 8px;
+    position: relative;
+    span {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .tooltip {
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 300px;
+        max-width: 80vw;
+        // height: 300px;
+        background-color: #ffffff;
+        white-space: normal;
+        border: 1px solid var(--fc-border-color, #ddd);
+        padding: 4px 8px;
+
+        p {
+            color: #000000;
+            font-weight: normal;
+            overflow: auto;
+            white-space: pre-wrap;
+        }
+    }
+
+    &:hover {
+        z-index: 10;
+        .tooltip {
+            display: block;
+        }
+    }
+}
