@@ -1,0 +1,34 @@
+@import '/styles/variables';
+
+.container {
+    padding: 32px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+
+    h2 {
+        font-size: 48px;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+
+    img {
+        flex-basis: 400px;
+    }
+}
+
+.imageWrapper {   
+    flex-basis: 600px;
+
+    img {
+        width: 100%;
+    }
+}
+.menuWrapper {
+    flex-basis: 600px;
+}
