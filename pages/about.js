@@ -19,7 +19,7 @@ export default function About() {
       <main>
         <AboutIntro/>
         <Barkeepers/>
-        {/* <Boards/> */}
+        <Boards/>
       </main>
 
       <Footer/>
