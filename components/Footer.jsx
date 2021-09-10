@@ -8,7 +8,8 @@ export const Footer = () => {
                     <b>Stichting /Pub</b><br />
                     Mekelweg 4<br/>
                     2628 CD, Delft<br />
-                    The Netherlands
+                    The Netherlands<br />
+                    <a href="pub-ewi@ch.tudelft.nl">pub-ewi@ch.tudelft.nl</a>
                 </address>
             </div>
             <div>
