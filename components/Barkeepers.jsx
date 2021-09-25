@@ -6,7 +6,7 @@ export const Barkeepers = () => {
     const [showForm, setShowForm] = useState(false);
 
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="barkeepers">
           <div>
             <h2>Barkeepers</h2>
             <p>The /Pub Barkeepers are an esteemed and essential group of people for the /Pub. On a voluntary basis, these great people make sure that you have the best possible /Pub experience! Not only do they enable you to get any drink, nourishment or deep fried snack easily and smoothly at the bar, but they also make for the friendly and inclusive atmosphere in the /Pub. All Barkeepers are inherently, as they would say in Dutch: “Ouderwets gezellig”. Being a barkeeper also comes with a number of perks. Not only are you actively doing something to help the EWI community, but in the meantime you improve your social skills, you obtain horeca experience and you get free drinks!</p>

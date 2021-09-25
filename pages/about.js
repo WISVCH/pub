@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Footer } from '../components/Footer'
-import { Header } from '../components/Header'
+import Header from '../components/Header'
 import { AboutIntro } from '../components/AboutIntro'
 import { Barkeepers } from '../components/Barkeepers'
 import { Boards } from '../components/Boards'

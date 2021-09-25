@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Mobitap } from '../components/Mobitap'
 import { Footer } from '../components/Footer'
-import { Header } from '../components/Header'
+import Header from '../components/Header'
 import { EventsIntro } from '../components/EventsIntro'
 import { Calendar } from '../components/Calendar'
 

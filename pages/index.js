@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Beers } from '../components/Beers'
 import { Footer } from '../components/Footer'
-import { Header } from '../components/Header'
+import Header from '../components/Header'
 import { Hero } from '../components/Hero'
 import { Intro } from '../components/Intro'
 import { Menu } from '../components/Menu'
