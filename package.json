@@ -1,10 +1,17 @@
 {
-  "name": "learn-starter",
-  "version": "0.1.0",
+  "name": "@wisvch/pub",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "https://pub.ewi.tudelft.nl/",
+  "author": {
+    "name": "Joep de Jong",
+    "email": "joep@joepdejong.com",
+    "url": "https://github.com/joepdejong"
+  },
+  "contributors": [],
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
