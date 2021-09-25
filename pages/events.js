@@ -2,8 +2,8 @@ import Head from 'next/head'
 import { Mobitap } from '../components/Mobitap'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
-import { Intro } from '../components/Intro'
 import { EventsIntro } from '../components/EventsIntro'
+import { Calendar } from '../components/Calendar'
 
 export default function Events() {
   return (
@@ -29,6 +29,7 @@ export default function Events() {
       <Header/>
       <main>
         <EventsIntro/>
+        <Calendar/>
         <Mobitap/>
       </main>
 
