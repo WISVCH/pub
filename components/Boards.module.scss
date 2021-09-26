@@ -20,11 +20,25 @@
 
 .buttonWrapper {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 16px;
     margin-bottom: 24px;
+    & > button {
+        flex: 1;
+        white-space:nowrap;
+    }
 }
 
 .boardWrapper {
     display: flex;
     flex-wrap: wrap;
+}
+
+@media(max-width: 768px) {
+    .container {
+        h2 {
+            font-size: 48px;
+        }
+    }
 }

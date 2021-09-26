@@ -15,6 +15,12 @@
     iframe {
         max-width: 100%;
     }
+
+    @media(max-width: 768px) {
+        & > div {
+            font-size: 10px;
+        }
+    }
 }
 
 .event {

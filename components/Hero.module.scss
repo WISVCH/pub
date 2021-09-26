@@ -27,3 +27,13 @@
         height: 100%;
     }
 }
+
+@media(max-width: 768px){
+    .background {
+        margin: 32px;
+        margin-bottom: 0px;
+    }
+    .logo {
+        height: 120px;
+    }
+}

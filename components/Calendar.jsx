@@ -24,6 +24,7 @@ export const Calendar = () => {
             <FullCalendar
             plugins={[ dayGridPlugin, googleCalendarPlugin ]}
             googleCalendarApiKey="AIzaSyBuaSuYTLnUyOrBcV6OOXEjZXP96qB3Aes"
+            className={styles.calendar}
             eventClassNames={styles.event}
             eventContent={eventContent}
             eventTimeFormat={{

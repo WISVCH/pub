@@ -52,3 +52,11 @@
     gap: 16px;
     flex-wrap: wrap;
 }
+
+@media(max-width: 768px) {
+    .container {
+        h2 {
+            font-size: 32px;
+        }
+    }
+}

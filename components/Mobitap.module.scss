@@ -34,3 +34,11 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+@media(max-width: 768px) {
+    .container {
+        h2 {
+            font-size: 48px;
+        }
+    }
+}

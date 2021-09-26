@@ -10,7 +10,13 @@
 .nav {
     display: flex;
     flex: 1;
-    justify-content: space-around;
+
+    @media(min-width: 769px){
+        justify-content: space-around;
+    }
+    @media(max-width: 768px){
+        overflow-x: scroll;
+    }
 
     a {
         color: #ffffff;

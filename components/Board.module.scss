@@ -38,3 +38,12 @@
         }
     }
 }
+
+@media(max-width: 768px) {
+    .container {
+        table {
+            font-size: 14px;
+            line-height: 1.6em;
+        }
+    }
+}
