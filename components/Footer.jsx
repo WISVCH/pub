@@ -9,7 +9,7 @@ export const Footer = () => {
                     Mekelweg 4<br/>
                     2628 CD, Delft<br />
                     The Netherlands<br />
-                    <a href="pub-ewi@ch.tudelft.nl">pub-ewi@ch.tudelft.nl</a>
+                    <a href="pub-ewi@tudelft.nl">pub-ewi@tudelft.nl</a>
                 </address>
             </div>
             <div>
