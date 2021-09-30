@@ -8,15 +8,29 @@ export const Calendar = () => {
     const eventContent = (info) => {
       console.log(info);
       const title = info.event.title === 'undefined' ? 'Private Activity': info.event.title;
-      return (
-        <>
-          <span>{info.timeText} - {title}</span>
-          <div className={styles.tooltip}>
-            <b>{info.timeText} - {title}</b>
-            {info.event.extendedProps.description && <p>{info.event.extendedProps.description}</p>}
-          </div>
-        </>
-      )
+      if (info.event.allDay) {
+          return (
+              <>
+                  <span>All day - {title}</span>
+              </>
+          )
+      }
+      else {
+          const offset = info.event._instance.range.start.getTimezoneOffset() * 60000;
+          const start = new Date(info.event._instance.range.start.getTime() + offset).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+          const end = new Date(info.event._instance.range.end.getTime() + offset).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+          return (
+              <>
+                  <span>
+                      {start} - {end}: {title}
+                  </span>
+                  <div className={styles.tooltip}>
+                      <b>{start} - {end}: {title}</b>
+                      {info.event.extendedProps.description && <p>{info.event.extendedProps.description}</p>}
+                  </div>
+              </>
+          )
+      }
     }
 
     return (

@@ -1,6 +1,6 @@
 .container {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: #8EAC91;
     position: relative;
 
@@ -10,7 +10,7 @@
 
 .background {
     flex: 1;
-    background-image: url('/images/hero.jpeg');
+    background-image: url('/images/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 48px;
