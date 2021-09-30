@@ -4,7 +4,7 @@ import styles from './Boards.module.scss'
 import { Button } from './Button'
 
 export const Boards = () => {
-    const [activeBoard, setActiveBoard] = useState(2)
+    const [activeBoard, setActiveBoard] = useState(3)
     return (
         <section className={styles.container} id="boards">
             <h2>Boards</h2>

@@ -7,11 +7,12 @@ import styles from './Calendar.module.scss'
 export const Calendar = () => {
     const eventContent = (info) => {
       console.log(info);
+      const title = info.event.title === 'undefined' ? 'Private Activity': info.event.title;
       return (
         <>
-          <span>{info.timeText} - {info.event.title}</span>
+          <span>{info.timeText} - {title}</span>
           <div className={styles.tooltip}>
-            <b>{info.timeText} - {info.event.title}</b>
+            <b>{info.timeText} - {title}</b>
             {info.event.extendedProps.description && <p>{info.event.extendedProps.description}</p>}
           </div>
         </>
