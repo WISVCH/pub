@@ -5,6 +5,17 @@
     padding: 8px 16px;
     background-color: $green;
     // border-bottom: 3px solid #000000;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav {

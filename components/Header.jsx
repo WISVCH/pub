@@ -5,7 +5,7 @@ import styles from './Header.module.scss'
 const Header = ({router}) => {
     console.log(router.pathname);
     return (
-        <div className={styles.container}>
+        <div id="navbar" className={styles.container}>
             <nav className={styles.nav}>
                 <a href="/">Home</a>
                 <div class={styles.dropdown}>
@@ -45,5 +45,6 @@ const Header = ({router}) => {
         </div>
     );
 };
+
 
 export default withRouter(Header);
