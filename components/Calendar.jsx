@@ -35,7 +35,7 @@ export const Calendar = () => {
 
     return (
         <div className={styles.container}>
-            <h2>Schedule</h2>
+            <h2>Calendar</h2>
             <FullCalendar
             plugins={[ dayGridPlugin, googleCalendarPlugin ]}
             googleCalendarApiKey="AIzaSyBuaSuYTLnUyOrBcV6OOXEjZXP96qB3Aes"

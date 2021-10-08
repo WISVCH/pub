@@ -4,6 +4,7 @@ import { Footer } from '../components/Footer'
 import Header from '../components/Header'
 import { EventsIntro } from '../components/EventsIntro'
 import { Calendar } from '../components/Calendar'
+import {Reservations} from "../components/Reservations";
 
 export default function Events() {
   return (
@@ -28,8 +29,8 @@ export default function Events() {
       </Head>
       <Header/>
       <main>
-        <EventsIntro/>
         <Calendar/>
+        <Reservations/>
         <Mobitap/>
       </main>
 
