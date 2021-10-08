@@ -11,8 +11,9 @@
   "contributors": [],
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start"
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
   },
   "dependencies": {
     "@babel/core": "^7.15.5",

@@ -20,10 +20,10 @@ export const Footer = () => {
                 <table>
                     <tr><th>Monday</th><td>Reservation only</td></tr>
                     <tr><th>Tuesday</th><td>Reservation only</td></tr>
-                    <tr><th>Wednesday</th><td>16:00 - 19:00</td></tr>
-                    <tr><th>Thursday</th><td>16:00 - 19:00</td></tr>
+                    <tr><th>Wednesday</th><td>16:00 - 22:00</td></tr>
+                    <tr><th>Thursday</th><td>16:00 - 22:00</td></tr>
                     <tr><th>Friday</th><td>Reservation only</td></tr>
-                    <tr><th>Saturday</th><td>Reservation only</td></tr>
+                    <tr><th>Saturday</th><td>Closed</td></tr>
                     <tr><th>Sunday</th><td>Closed</td></tr>
                 </table>
             </div>

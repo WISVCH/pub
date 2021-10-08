@@ -3,7 +3,7 @@ import styles from './Mobitap.module.scss';
 
 export const Mobitap = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="mobitap">
             <section>
                 <h2>Mobitap</h2>
                 <img src="/images/mobitap.png" alt="Mobitap"/>

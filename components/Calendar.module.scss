@@ -1,3 +1,5 @@
+@import "styles/variables";
+
 .container {
     display: flex;
     flex-direction: column;
@@ -10,6 +12,9 @@
 
     h2 {
         font-size: 40px;
+        span {
+            color: $green;
+        }
     }
 
     iframe {
