@@ -10,18 +10,18 @@
 
 .background {
     flex: 1;
-    background-image: url('/images/hero.jpg');
+    background-image: url('/images/ewi-drone.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 48px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .logo {
     position: absolute;
     height: 200px;
-    top: 0px;
-    right: 0px;
+    top: 0;
+    right: 0;
 
     img {
         height: 100%;
@@ -31,7 +31,7 @@
 @media(max-width: 768px){
     .background {
         margin: 32px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
     .logo {
         height: 120px;

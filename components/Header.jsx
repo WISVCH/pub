@@ -8,7 +8,7 @@ const Header = ({router}) => {
         <div id="navbar" className={styles.container}>
             <nav className={styles.nav}>
                 <a href="/">Home</a>
-                <div class={styles.dropdown}>
+                <div className={styles.dropdown}>
                     <a href="/about">About</a>
                     <div>
                         {   router.pathname == "/about"?

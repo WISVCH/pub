@@ -1,4 +1,5 @@
 import styles from './Footer.module.scss'
+import {Button} from "./Button";
 
 export const Footer = () => {
     return (
@@ -9,7 +10,8 @@ export const Footer = () => {
                     Mekelweg 4<br/>
                     2628 CD, Delft<br />
                     The Netherlands<br />
-                    <a href="pub-ewi@tudelft.nl">pub-ewi@tudelft.nl</a>
+                    <a href="pub-ewi@tudelft.nl">pub-ewi@tudelft.nl</a> <br/> <br/>
+                    <Button color={'white'} href="/files/House_rules_Pub.pdf">House rules</Button>
                 </address>
             </div>
             <div>
@@ -18,13 +20,15 @@ export const Footer = () => {
             <div>
                 <b>Opening hours</b><br />
                 <table>
-                    <tr><th>Monday</th><td>Reservation only</td></tr>
-                    <tr><th>Tuesday</th><td>Reservation only</td></tr>
-                    <tr><th>Wednesday</th><td>16:00 - 22:00</td></tr>
-                    <tr><th>Thursday</th><td>16:00 - 22:00</td></tr>
-                    <tr><th>Friday</th><td>Reservation only</td></tr>
-                    <tr><th>Saturday</th><td>Closed</td></tr>
-                    <tr><th>Sunday</th><td>Closed</td></tr>
+                    <tbody>
+                        <tr><th>Monday</th><td>Reservation only</td></tr>
+                        <tr><th>Tuesday</th><td>Reservation only</td></tr>
+                        <tr><th>Wednesday</th><td>16:00 - 22:00</td></tr>
+                        <tr><th>Thursday</th><td>16:00 - 22:00</td></tr>
+                        <tr><th>Friday</th><td>Reservation only</td></tr>
+                        <tr><th>Saturday</th><td>Closed</td></tr>
+                        <tr><th>Sunday</th><td>Closed</td></tr>
+                    </tbody>
                 </table>
             </div>
         </div>
