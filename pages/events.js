@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import { EventsIntro } from '../components/EventsIntro'
 import { Calendar } from '../components/Calendar'
 import {Reservations} from "../components/Reservations";
+import {ClosedMessage} from "../components/ClosedMessage";
 
 export default function Events() {
   return (
@@ -30,6 +31,7 @@ export default function Events() {
       </Head>
       <Header/>
       <main>
+          <ClosedMessage/>
         <Calendar/>
         <Reservations/>
         <Mobitap/>
