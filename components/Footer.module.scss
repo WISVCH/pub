@@ -28,3 +28,11 @@
         font-weight: normal;
     }
 }
+
+.socials {
+    display: flex;
+    align-items: center;
+    a {
+        margin-left: 4px;
+    }
+}
