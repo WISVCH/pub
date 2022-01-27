@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import { EventsIntro } from '../components/EventsIntro'
 import { Calendar } from '../components/Calendar'
 import {Reservations} from "../components/Reservations";
-import {ClosedMessage} from "../components/ClosedMessage";
+import {CoronaMessage} from "../components/CoronaMessage";
 
 export default function Events() {
   return (
@@ -31,7 +31,7 @@ export default function Events() {
       </Head>
       <Header/>
       <main>
-          <ClosedMessage/>
+          <CoronaMessage/>
         <Calendar/>
         <Reservations/>
         <Mobitap/>

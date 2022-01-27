@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import { Hero } from '../components/Hero'
 import { Intro } from '../components/Intro'
 import { Menu } from '../components/Menu'
-import {ClosedMessage} from "../components/ClosedMessage";
+import {CoronaMessage} from "../components/CoronaMessage";
 
 export default function Home() {
   return (
@@ -32,7 +32,7 @@ export default function Home() {
         <Header/>
       </Hero>
       <main>
-          <ClosedMessage/>
+          <CoronaMessage/>
         <Intro/>
         <Beers/>
         <Menu/>
