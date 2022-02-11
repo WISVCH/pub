@@ -14,7 +14,7 @@ export const Barkeepers = () => {
             <Button href={"https://docs.google.com/forms/d/e/1FAIpQLScoQ7gQhZGa4gWFgvvEF8bRmDlowrvSAcz36qnOvaptcGOEwA/viewform?embedded=true"}>Interest form</Button>
             <p>For barkeepers we also have some additional information:</p>
             <div className={styles.buttonWrapper}>
-              <Button href="/files/Reglement%20Barkeepers.pdf">Rules</Button>
+              <Button href="/files/Introduction Barkeepers.pdf">Introduction</Button>
               <Button href="/files/Stappenplan%20Openen%20&%20Sluiten%20_Pub.pdf">Opening &amp; Closing</Button>
               <Button href="/files/Schadeformulier.pdf">Damage form</Button>
               
