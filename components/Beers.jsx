@@ -8,7 +8,8 @@ export const Beers = () => {
                 <h2>Draft beers</h2>
                 <div className={styles.beersWrapper}>
                     <BeerCard title="Tripel Karmeliet" src="/images/beers/tripel-karmeliet.jpeg"/>
-                    <BeerCard title="Leffe Blond" src="/images/beers/leffe-blond.png"/>
+                    <BeerCard title="Pauwel Kwak" src="/images/beers/pauwel-kwak.jpg"/>
+                    {/*<BeerCard title="Leffe Blond" src="/images/beers/leffe-blond.png"/>*/}
                     <BeerCard title="Hertog Jan" src="/images/beers/hertog-jan.png"/>
                     <BeerCard title="Jupiler" src="/images/beers/jupiler.png"/>
                 </div>
