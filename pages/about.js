@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import { AboutIntro } from '../components/AboutIntro'
 import { Barkeepers } from '../components/Barkeepers'
 import { Boards } from '../components/Boards'
+import {CoronaMessage} from "../components/CoronaMessage";
 
 export default function About() {
   return (
