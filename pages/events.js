@@ -31,6 +31,7 @@ export default function Events() {
       </Head>
       <Header/>
       <main>
+          <CoronaMessage/>
         <Calendar/>
         <Reservations/>
         <Mobitap/>
