@@ -21,7 +21,7 @@ export const Reservations = () => {
                         <Button href="/files/User_agreement_Pub.pdf">User Agreement</Button>
                     </div>
                     <div className={styles.buttonWrapper}>
-                        <Button href="/files/Reservation_rules_Pub.pdf">Reservation rules</Button>
+                        <Button href="/files/Reservation_Rules.pdf">Reservation rules</Button>
                     </div>
                 </div>
 
