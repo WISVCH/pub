@@ -12,7 +12,7 @@ export const Board = ({img, chairman, secretary, treasurer, commissioner = null,
                         <tr><th>Position</th><th>Name</th></tr>
                     </thead>
                     <tbody>
-                        <tr><th>Chairman</th><td>{chairman}</td></tr>
+                        <tr><th>Chair</th><td>{chairman}</td></tr>
                         <tr><th>Secretary</th><td>{secretary}</td></tr>
                         <tr><th>Treasurer</th><td>{treasurer}</td></tr>
                         { commissioner && <tr><th>Commissioner</th><td>{commissioner}</td></tr>}
