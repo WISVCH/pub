@@ -21,7 +21,7 @@ export const Barkeepers = () => {
             </div>
           </div>
           <div>
-              <img src="/images/barkeepers.jpeg" alt="Barkeepers"/>
+              <img src="/images/barkeepers.jpg" alt="Barkeepers"/>
           </div>
         </section>
     )

@@ -32,7 +32,6 @@ export default function Home() {
         <Header/>
       </Hero>
       <main>
-          <CoronaMessage/>
         <Intro/>
         <Beers/>
         <Menu/>
