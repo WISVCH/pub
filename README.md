@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This repo has been moved to a private repo on /Pub GitHub https://github.com/pub-ewi. Unfortunately, they pushed passwords and private keys to the repo so they will not open source it anymore.
